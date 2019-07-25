@@ -1,6 +1,9 @@
 <template>
-    <div>
+    <div> 
         <li>{{content}}</li>
+        <button>确认收货</button>
+        
+        
     </div>
 </template>
 <script>
