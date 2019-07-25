@@ -2,12 +2,12 @@
   <div class="hello">
     <div>
       <span>菜鸟驿站    </span>
-      <button>ALL</button>
-      <button>已预约</button>
-      <button>已取件</button>
-      <button>未预约</button>
+      <button @click="addAll">ALL</button>
+      <button @click="ordered">已预约 </button>
+      <button @click="picked">已取件</button>
+      <button @click="notOrdered">未预约</button>
       <button @click= "submit" >+添加</button>
-    </div>
+    </div> 
     <div>
       <span>运单号  </span>
       <span>收件人  </span>
@@ -47,10 +47,22 @@ export default {
     submit () {
       this.list.push(this.inputValue)
       this.inputValue= ''
+    },
+    addAll () {
+
+    },
+    ordered () {
+
+    },
+    picked () {
+
+    },
+    notOrdered () {
+
     }
   },
   components: {
-    Item
+    Item,
   }
 }
 </script>

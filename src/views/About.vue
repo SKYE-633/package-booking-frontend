@@ -3,7 +3,7 @@
     <h1>包裹入库</h1>
     <div>
       <span>运单号：</span>
-      <input placeholder="201907240001"/>
+      <input placeholder="201907240001" />
     </div>
     <div>
       <span>收件人：</span>
